@@ -1,4 +1,4 @@
-Hệ thống kiểm soát mực nước thông minh được xây dựng dựa trên các công nghệ Node.js, MongoDB, và React có các chức năng chính sau
+<h1>Hệ thống kiểm soát mực nước thông minh được xây dựng dựa trên các công nghệ Node.js, MongoDB, và React có các chức năng chính sau</h1>
 
 Thêm/Sửa/Xóa thiết bị: Hệ thống có thể quản lý danh sách các thiết bị (như cảm biến mực nước hoặc máy bơm nước).
 
