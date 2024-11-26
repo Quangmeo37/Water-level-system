@@ -19,5 +19,10 @@ export const deleteDevice = (id) => API.delete(`/api/devices/${id}`);
 export const controlDevice = (id, command) =>
   API.post(`/api/devices/${id}/control`, { command });
 
+// API để cập nhật chế độ tự động
+export const toggleAutoMode = (id, autoMode) => {
+  return API.put(`/devices/${id}/autoMode`, { autoMode: autoMode });
+};
+
 // API lấy lịch sử hoạt động
 export const fetchLogs = (deviceId) => API.get(`/api/logs/${deviceId}`);
