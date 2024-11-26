@@ -34,7 +34,7 @@ void setup() {
   setup_wifi();
   
   // Thiết lập máy chủ MQTT và thông tin bảo mật
-  espClient.setInsecure(); // Bỏ qua chứng chỉ SSL (dùng thử nghiệm, không khuyến nghị cho sản xuất)
+  espClient.setInsecure();
   client.setServer(mqtt_server, mqtt_port);
   client.setCallback(callback);
 }
