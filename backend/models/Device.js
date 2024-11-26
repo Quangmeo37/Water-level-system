@@ -5,6 +5,7 @@ const deviceSchema = new mongoose.Schema({
   location: { type: String, required: true },
   type: { type: String, required: true, enum: ['pump', 'sensor'] },
   status: { type: String, default: 'off', enum: ['on', 'off'] },
+  autoMode: { type: Boolean, default: false },  // Thêm trường chế độ tự động
   threshold: {
     low: { type: Number, required: true },
     high: { type: Number, required: true },
