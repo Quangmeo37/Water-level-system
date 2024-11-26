@@ -73,3 +73,4 @@ const DeviceList = () => {
 };
 
 export default DeviceList;
+
