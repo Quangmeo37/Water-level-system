@@ -3,6 +3,8 @@ import axios from 'axios';
 import DeviceList from './components/DeviceList';
 import DeviceControl from './components/DeviceControl';
 import Logs from './components/Logs';
+import './App.css';
+
 
 const App = () => {
   const [devices, setDevices] = useState([]);
