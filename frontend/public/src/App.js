@@ -39,7 +39,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Hệ Thống Giám Sát Mực Nước</h1>
+      <h1>Hệ thống kiểm soát mực nước thông minh</h1>
 
       {/* Hiển thị danh sách thiết bị */}
       <DeviceList devices={devices} onDeviceSelect={setSelectedDevice} />
